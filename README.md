@@ -10,6 +10,9 @@ This repository provides a reinforcement learning framework to train and evaluat
 - 🔧 **Hyperparameter Optimization:** Automatically find optimal hyperparameters for training using **Optuna**.
 - 📈 **Training Visualization:** Monitor training progress with **TensorBoard**.
 
+<img src="https://github.com/user-attachments/assets/2638ae3f-715f-4d7c-9f31-8ff0b3942865" alt="obsTranformations" width="800">
+
+
 ---
 
 ## **Setup**
@@ -109,6 +112,9 @@ StreetFighter-AI/
 └── main.py                   # Entry point for executing commands
 ```
 
+<img src="https://github.com/user-attachments/assets/93348797-9db9-4221-b950-f4dfa7419efb" alt="image (4)" width="400">
+
+
 
 ---
 
@@ -122,12 +128,21 @@ Example visualizations include:
 - **Episode Rewards:** Monitor the agent's average reward over time.
 - **Episode Lengths:** Track how long episodes last as the agent improves
 
+![image (2)](https://github.com/user-attachments/assets/e43ebaa9-8ad3-4a63-8b6f-a78475e1088a)
+
+
+![image (3)](https://github.com/user-attachments/assets/d4324257-9639-4e95-8a93-619ae7f80581)
+
 ### Observation/Action Space Errors: 
 Ensure the framestack parameter matches between training and evaluation:
 
+```bash
+python main.py evaluate --framestack 4
+```
+
+https://github.com/user-attachments/assets/f2be6f6c-232c-4493-becc-20393c99804f
 
 
 
-
-
+https://github.com/user-attachments/assets/4365f168-9888-46ce-a3ba-bd5ed37bbd21
 
