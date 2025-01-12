@@ -27,24 +27,21 @@ Before starting, ensure the following:
    ```bash
    git clone https://github.com/your_username/StreetFighter-AI.git
    cd StreetFighter-AI
-
+   ```
 2. Create a virtual environment and install dependencies:
     ```bash
     python -m venv streetfighter
     source streetfighter/bin/activate  # On Windows: streetfighter\Scripts\activate
     pip install -r requirements.txt
-
+   ```
 3. Import the ROM file:
    
-   - Place the ROM file (e.g., StreetFighterIISpecialChampionEdition-Genesis.smc) in the project directory
-   - Import it using retro
-
-
-
-  
-   ```bash
-   python -m retro.import .
-   ```
+  - Place the ROM file (e.g., StreetFighterIISpecialChampionEdition-Genesis.smc) in the project directory
+  - Import it using retro
+   
+      ```bash
+      python -m retro.import .
+      ```
 ---
 
 ### **Usage**
