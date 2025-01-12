@@ -5,10 +5,10 @@ This repository provides a reinforcement learning framework to train and evaluat
 ---
 
 ## **Features**
-- 🏋️ **Train AI Agents:** Train RL agents from scratch or resume training from existing models.
-- 📊 **Evaluate Models:** Evaluate trained agents using custom metrics like rewards, health, and frame deltas.
-- 🔧 **Hyperparameter Optimization:** Automatically find optimal hyperparameters for training using **Optuna**.
-- 📈 **Training Visualization:** Monitor training progress with **TensorBoard**.
+- **Train AI Agents:** Train RL agents from scratch or resume training from existing models.
+- **Evaluate Models:** Evaluate trained agents using custom metrics like rewards, health, and frame deltas.
+- **Hyperparameter Optimization:** Automatically find optimal hyperparameters for training using **Optuna**.
+- **Training Visualization:** Monitor training progress with **TensorBoard**.
 
 <img src="https://github.com/user-attachments/assets/2638ae3f-715f-4d7c-9f31-8ff0b3942865" alt="obsTranformations" width="800">
 
