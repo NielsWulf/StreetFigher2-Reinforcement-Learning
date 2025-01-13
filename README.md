@@ -143,3 +143,27 @@ https://github.com/user-attachments/assets/f2be6f6c-232c-4493-becc-20393c99804f
 
 https://github.com/user-attachments/assets/4365f168-9888-46ce-a3ba-bd5ed37bbd21
 
+## **Next Steps**
+
+Here are some planned enhancements to improve and expand the project:
+
+### **1. Human vs. AI Gameplay**
+- Enable a **multiplayer mode** where a human can play against the trained AI agent.
+- Add support for **game controllers** like Xbox or PlayStation controllers for seamless interaction.
+
+### **2. Improved Observations**
+- Include **structured game state information** (e.g., health, score, distance) alongside visual observations.
+- Experiment with **different preprocessing techniques**, such as partial color information or higher-resolution inputs.
+
+### **3. Expanded Visualization Tools**
+- Add **custom metrics** to TensorBoard, such as:
+  - Health differences between the player and opponent.
+  - Damage dealt over time.
+- Generate detailed **post-training reports** with performance plots and insights.
+
+### **4. Model Robustness**
+- Implement **domain randomization** to make the agent robust to changes (e.g., different characters or levels).
+- Train the agent to generalize across multiple game levels or difficulty settings.
+
+---
+
