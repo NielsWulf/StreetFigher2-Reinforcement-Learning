@@ -84,11 +84,6 @@ class StreetFighter(Env):
         elif curr_player_health <= 0:
             reward -= self.reward_coeff * 2500  # Loss penalty
 
-        # Ongoing reward during the fight
-        else:
-            reward += self.reward_coeff * (self.prev_oppont_health - curr_oppont_health)
-            reward -= self.reward_coeff * (self.prev_player_health - curr_player_health)
-
         # Update health tracking
         self.prev_player_health = curr_player_health
         self.prev_oppont_health = curr_oppont_health
